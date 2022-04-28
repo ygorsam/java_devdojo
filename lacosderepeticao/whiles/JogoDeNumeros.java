@@ -16,7 +16,6 @@ public class JogoDeNumeros {
             System.out.println("Do you wish to continue??");
             System.out.println("1. Yes");
             System.out.println("2. No");
-            System.out.println("3. Maybe");
             desejaContinuar = scanner.nextInt();
         }while (desejaContinuar == 1);
         System.out.println("Thanks for Playing!");
